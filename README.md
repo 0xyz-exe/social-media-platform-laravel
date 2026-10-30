@@ -10,6 +10,17 @@ A modern social networking platform built with Laravel, Tailwind CSS, and Blade.
 - **Engagement Interactions**: Real-time post liking and comment threads with atomic counter incrementing and decrementing inside `DB::transaction()`.
 - **Responsive Community UI**: Clean desktop and mobile social layouts with rich author avatars, timestamp formatting, and hashtag chips.
 
+## Screenshots
+
+| Tampilan | Preview |
+|---|---|
+| **Timeline Feed & Beranda Komunitas**<br>Stream linimasa postingan kreator yang diikuti, formulir pembuat postingan cepat, profil statistik kreator, dan topik tren teratas | ![Timeline Feed & Beranda Komunitas](docs/screenshots/01-dashboard-overview.png) |
+| **Pencarian & Penjelajahan Tagar Global**<br>Feed eksplorasi global dengan pencarian kata kunci multi-parameter, penyaringan tagar topik, dan daftar tren interaktif | ![Pencarian & Penjelajahan Tagar Global](docs/screenshots/02-explore-feed.png) |
+| **Utas Diskusi & Interaksi Postingan**<br>Halaman detail percakapan lengkap dengan balasan komentar bertingkat, formulir interaksi, serta metrik suka atomik | ![Utas Diskusi & Interaksi Postingan](docs/screenshots/03-post-detail-thread.png) |
+| **Manajemen Akun & Pengaturan Profil**<br>Pusat kendali pengaturan identitas pengguna, pembaharuan kata sandi, dan privasi akun | ![Manajemen Akun & Pengaturan Profil](docs/screenshots/04-profile-settings.png) |
+
+---
+
 ## Tech Stack
 
 - **Backend**: Laravel 12.x (PHP 8.3+)
